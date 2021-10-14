@@ -59,6 +59,7 @@ hr{
     height: auto;
     width: 100%;
     background-color: rgb(204, 207, 204);
+    background-image: linear-gradient(to right,rgb(175, 130, 168),rgb(230, 117, 117),rgb(236, 236, 133));
     padding-bottom: 0px;
    
 

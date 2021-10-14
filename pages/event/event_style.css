@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: cursive;
+}
+body{
+    background-image: linear-gradient(to right, rgb(133, 143, 79),yellow,gray);
+
 }
 
 .event-card-container{
     width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +25,7 @@
     /* margin: auto; */
     border:1px solid black;
     border-radius: 20px;
+    background-color: white;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;

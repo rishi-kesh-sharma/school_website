@@ -15,7 +15,7 @@ p{
 .container{
     height: auto;
     width: 100%;
-    background-color: rgb(224, 224, 243);
+    background-image: linear-gradient(to right,rgb(144, 152, 190),rgb(151, 135, 135),white);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -41,9 +41,8 @@ p{
   align-items: center;
   padding: 10px;
   margin: 20px 0;
-  
+  border-radius: 20px; 
   background-color: white;
-  
 } 
  p{
     display: inline-block;
