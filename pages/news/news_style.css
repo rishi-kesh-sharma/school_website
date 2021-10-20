@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to right,rgb(140, 140, 235),rgb(68, 54, 54),rgb(218, 218, 132));
+
+}
 .notice-container{
     /* padding: 20px; */
-    padding-top: 100px;
-    height: auto;
+    /* padding: 100px ; */
+    height: 100vh;
     width: 100%;
 
 }
@@ -22,8 +26,9 @@
     max-width: 500px;
     padding: 10px;
     margin: 20px;
-    /* margin: auto; */
-    border:1px solid black;
+    background-color: white;
+    /*margin: auto;
+    */border:1px solid black;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
