@@ -54,7 +54,7 @@ const intervalFunction=()=>{
         
         {
     
-            carouselImage1.setAttribute("src",`../../images/image${currentIndexOfCarouselImage}.png`);
+            carouselImage1.setAttribute("src",`../../images/school-image${currentIndexOfCarouselImage}.jpeg`);
         }
     //    else{
     
@@ -78,9 +78,9 @@ slideLeftButton.addEventListener("click",(e)=>{
         currentIndexOfCarouselImage-=1;
     }
     else{
-        currentIndexOfCarouselImage=12;
+        currentIndexOfCarouselImage=9;
     }
-    carouselImage1.setAttribute("src",`../../images/image${currentIndexOfCarouselImage}.png`);
+    carouselImage1.setAttribute("src",`../../images/school-image${currentIndexOfCarouselImage}.jpeg`);
 
 
 })
@@ -88,7 +88,7 @@ slideLeftButton.addEventListener("click",(e)=>{
 slideRightButton.addEventListener("click",(e)=>{
     console.log(e.target.classList);
     clearInterval(carouselSlideInterval);
-    if(currentIndexOfCarouselImage<12)
+    if(currentIndexOfCarouselImage<9)
     {
 
         currentIndexOfCarouselImage+=1;
@@ -96,7 +96,7 @@ slideRightButton.addEventListener("click",(e)=>{
     else{
         currentIndexOfCarouselImage=1;
     }
-    carouselImage1.setAttribute("src",`../../images/image${currentIndexOfCarouselImage}.png`);
+    carouselImage1.setAttribute("src",`../../images/school-image${currentIndexOfCarouselImage}.jpeg`);
 
     
 

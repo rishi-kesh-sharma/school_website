@@ -17,56 +17,79 @@
         <script src="https://kit.fontawesome.com/ff746a8736.js" crossorigin="anonymous" defer></script> 
     </head>
     <body>
+
+        <!-- top header -->
+
         <header class="container-fluid px-0 mx-0">
             <div class="bg-primary top-bar">
                 <div class="top-header-left">
-                    <i class="fa fa-envelope text-white mr-3" ></i> <a href="mailto:pramodlc@gmail.com" class="text-white">pramodlc@gmail.com</a>
-                    <i class="fa fa-phone text-white"> <a href="#" class="text-white">9845220947</a></i>
+                    <i class="fa fa-envelope text-white mr-2" ></i> <a href="mailto:pramodlc@gmail.com" class="text-white">pramodlc@gmail.com</a>
+                    <i class="fa fa-phone text-white mr-1"> <a href="#" class="text-white">9845220947</a></i>
                 </div>
                 <div class="top-header-right mr-2">
                     <ul class="d-flex align-items-center justify-content-around"> 
-                            <li class="mr-2"><a href="../admission/admission.html" class="text-white">admission</a></li>
+                            <li class="mr-2"><i class="fas fa-plus text-danger mr-1"></i><a href="../admission/admission.html" class="text-white">admission</a></li>
                             <li class="mr-2"><a href="#" class="text-white">|</a></li>
-                            <li class="mr-2"> <a href="../login/login.html" class="text-white">login</a></li>
+                            <li class="mr-2"> <i class="fas fa-lock text-danger mr-1"></i><a href="../login/login.html" class="text-white">login</a></li>
                     </ul>
                     
                 </div>
 
             </div>
+            
+            <!-- MAIN HEADER CONTAINING NAVIGATION BAR -->
+
             <div class="main-header d-flex justify-content-between  py-3" >
+
+                   <!-- LOGO -->
+
                 <div class="logo-container">
-                   <a href="https://school.badimalika.edu.np/"><img src="https://school.badimalika.edu.np//assets/uploads//logo/1611637596-school-logo.jpg" alt="" /></a>
+                   <a href="#"><img src="https://school.badimalika.edu.np//assets/uploads//logo/1611637596-school-logo.jpg" alt="" /></a>
                 </div>
                 
+
+                <!-- NAVBAR -->
+
                 <nav>
                    <ul class="navbar">
-                        <li class="nav-item active-nav-item" id=""><a href="#">Home</a></li>
-                        <li class="nav-item announcement"><a href="#">Announcement
+                        <li class="nav-item active-nav-item" id=""><a href="#"><i class=" mr-1 fas fa-home"></i>Home</a></li>
+                        <li class="nav-item announcement"><a href="#"><i class=" mr-1 fas fa-bullhorn"></i>Announcement<i class=" ml-2 fas fa-angle-double-down"></i></a>
                             <ul>
-                                <li><a href="../news/news.html">news</a></li>
-                                <li><a href="../notices/notices.html">notice</a></li>
-                                <li><a href="../holiday/holiday.html">holiday</a></li>
+                                <li><a href="../news/news.html"><i class="fas fa-newspaper mr-1 "></i>news</a></li>
+                                <li><a href="../notices/notices.html"><i class=" fas fa-bullhorn mr-1 "></i>notice</a></li>
+                                <li><a href="../holiday/holiday.html"><i class="fas fa-calendar-times mr-1 "></i>holiday</a></li>
                             </ul>
                         </a></li>
-                        <li class="nav-item"><a href="../events/events.html"> Events</a></li>
-                        <li class="nav-item"><a href="../gallery/gallery.html">Gallery</a></li>
-                        <li class="nav-item"><a href="../teacher/teacher.html">Teacher</a></li>
-                        <li class="nav-item"><a href="../staff/staff.html">Staff</a></li>
-                        <li class="nav-item"><a href="../contact/contact.html">Contact Us</a></li>
+                        <li class="nav-item"><a href="../events/events.html"><i class=" mr-1 fas fa-calendar-day"></i> Events</a></li>
+                        <li class="nav-item"><a href="../gallery/gallery.html"><i class=" mr-1 fas fa-images"></i>Gallery</a></li>
+                        <li class="nav-item"><a href="../teacher/teacher.html"><i class=" mr-1 fas fa-users"></i>Teacher</a></li>
+                        <li class="nav-item"><a href="../staff/staff.html"><i class=" mr-1 fas fa-users"></i>Staff</a></li>
+                        <li class="nav-item"><a href="../contact/contact.html"><i class=" mr-1 fas fa-envelope-open-text"></i>Contact Us</a></li>
                     </ul>
                 </nav>
                 
+                <!-- HAMBURGER CONTAINER VISIBLE ONLY ON SMALL DEVICES -->
+
                 <div class="hamburger-container">
-                    <i class="fa fa-bars text-white hamburger">hamburger</i>                   
+                    <i class="fa fa-bars text-white hamburger"></i>                   
                 </div>
            </div>
         </header>
+            
+        <!-- CAROUSEL CONTAINER -->
+
         <section class="carousel-container">
+
+            <!-- CAROUSEL IMAGE CONTAINER -->
+
             <div class="carousel-image-container">
                 <p>BADIMALIKA SCHOOL</p>
-                <img class="carousel-image1" src="../../images/image1.png">
+                <img class="carousel-image1" src="../../images/school-image1.jpeg">
                 <!-- <img class="carousel-image2" src="../../images/image2.png"/> -->
             </div>
+               
+            <!-- CAROUSEL BUTTONS -->
+
             <div class="carousel-btn-container">
                 <button class="slide-left-btn">&lt;</button>
                 <button class="slide-right-btn">&gt;</button>
@@ -74,42 +97,65 @@
         </section>
         <hr/>
         <h2 class="about-us-heading text-primary">About Us</h2>
+
+        <!-- ABOUT US SECTION` -->
+
+
         <section class="about-us">
-            <div class="about-us-image-container">
-                <img  class="about-us-image" src="../../images/image1.png"/>
-            </div>
-            <div class="about-us-text-container">
-                <p class="about-us-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, itaque sed. Minus voluptatum itaque porro tempora, beatae inventore eius eligendi dolorum qui ab ullam nihil possimus, laborum in. Eos ad soluta beatae accusantium cum nesciunt fugiat aut nemo at totam vel, tempore vitae, molestiae voluptatem aperiam voluptatibus itaque maiores reprehenderit dicta excepturi ratione, laborum quidem delectus. Voluptatibus dignissimos, quae quo modi accusamus nemo placeat at illum magnam ab natus eaque illo, odio sed necessitatibus nam saepe incidunt mollitia fugit, fugiat similique nihil consectetur. Culpa voluptates, iure magnam quisquam nihil repudiandae impedit iste dolores, sequi autem dicta quos ut, suscipit omnis?</p>
-                 <button class="learn-more-btn btn btn-primary "><a  class="text-white" href="../about/about.html">learn more</a></button>
-            </div>
+            <div class="about-us-overlay-image"></div>
+           <div class="about-us-overlay"></div>
+            <!-- ABOUT US IMAGE -->
+            <div class="about-us-main-content-container">
+                <div class="about-us-image-container">
+                    <img  class="about-us-image" src="../../images/school-image1.jpeg"/>
+                </div>
+    
+                <!-- ABOUT US TEXT -->
+    
+                <div class="about-us-text-container">
+                    <div class="about-us-text-image-container"></div>
+                    <div class="about-us-text-overlay-container"></div>
+                   <!-- <div class="about-us-text">hello</div> -->
+    
+                    <p class="about-us-text"> eligendi dolorum qui ab ullam nihil possimus, laborum in. Eos ad soluta beatae accusantium cum nesciunt fugiat aut nemo at totam vel, tempore vitae, molestiae voluptatem aperiam voluptatibus itaque maiores reprehenderit dicta excepturi ratione, laborum quidem delectus. Voluptatibus dignissimos, quae quo modi accusamus nemo placeat at illum magnam ab natus eaque illo, odio sed necessitatibus nam saepe incidunt mollitia fugit, fugiat similique nihil consectetur. Culpa voluptates, iure magnam quisquam nihil repudiandae impedit iste dolores, sequi autem dicta quos ut, suscipit omnis?</p>
+                    <button class="learn-more-btn btn btn-primary "><a  class="text-white" href="../about/about.html">learn more</a></button>
+                    
+                </div>
+              </div>
+            
         </section>
         <hr/>
+
+        <!-- NOTICE CONTAINER -->
+
         <section class="notice-container">
             <h2 class="text-center text-white text-capitalize">notice</h2>
+            <div class="notice-container-image"></div>
+            <div class="notice-container-overlay"></div>
             <div class="notice-card-container">
                 <div class="notice-card">
                     <h3 class="notice-title">notice title 1</h3>
-                    <h6 class="notice-date"><i class="fa-solid fa-calender"></i> <span>2021/10/10</span></h6>
+                    <h6 class="notice-date"><i class=" mr-1 fas fa-calendar-day"></i> <span>2021/10/10</span></h6>
                     <button class="read-more-btn btn btn-primary"><a  class="text-white" href="../notice/notice.html">read more</a></button>
                 </div>
                 <div class="notice-card">
                     <h3 class="notice-title">notice title 2</h3>
-                    <h6 class=" notice-date"><i class="fa-solid fa-calendar-days"></i> <span>2021/10/10</span></h6>
+                    <h6 class=" notice-date"> <span>2021/10/10</span></h6>
                     <button class="read-more-btn btn btn-primary"><a  class="text-white" href="../notice/notice.html">read more</a></button>
                 </div>
                 <div class="notice-card">
                     <h3 class="notice-title">notice title 3</h3>
-                    <h6 class=" notice-date"><i class="fa-solid fa-calendar"></i> <span>2021/10/10</span></h6>
+                    <h6 class=" notice-date"> <span>2021/10/10</span></h6>
                     <button class="read-more-btn btn btn-primary"><a  class="text-white" href="../notice/notice.html">read more</a></button>
                 </div>
                 <div class="notice-card">
                     <h3 class="notice-title">notice title 4</h3>
-                    <h6 class=" notice-date"><i class="fa-solid fa-calendar"></i> <span>2021/10/10</span></h6>
+                    <h6 class=" notice-date"> <span>2021/10/10</span></h6>
                     <button class="read-more-btn btn btn-primary"><a  class="text-white" href="../notice/notice.html">read more</a></button>
                 </div>
                 <div class="notice-card">
                     <h3 class="notice-title">notice title 5</h3>
-                    <h6 class=" notice-date"><i class="fa-solid fa-calendar"></i> <span>2021/10/10</span></h6>
+                    <h6 class=" notice-date"> <span>2021/10/10</span></h6>
                     <button class="read-more-btn btn btn-primary"><a  class="text-white" href="../notice/notice.html">read more</a></button>
                 </div> 
                 
@@ -119,6 +165,9 @@
         </section>
         
         <hr/>
+
+        <!-- EVENT CONTAINER -->
+
         <section class="event-container">
             <h2 class="text-center text-white text-capitalize">Events</h2>
             <div class="event-card-container">
@@ -168,42 +217,48 @@
             
         </section>
 <hr>
+          
+        <!-- REVIEW CONTAINER -->
+
         <section>
-            
             <h4 class="text-center text-primary review-heading"  >OUR TOP REVIEWS</h4>
-    <div id="review-container">
-        <div id="center-container"  itemid="center-container1" class="1">
-            <div id="review-image-container">
-                
-                <image id="review-person-image" src= "../../images/image1.png"></image>
-            </div>
-            <h4 id="reviewer">Susan Smith</h4>
-            <div id="review-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Aliquam dignissimos fuga corporis similique
-                voluptatem inventore necessitatibus? Placeat labore 
-                voluptas eius, vel et 
-                doloribus amet ex consequuntur odio deserunt 
-                vitdae tenetur.
-            </div> 
-       </div>  
-        <div id="center-container"  itemid="center-container1" class="1">
-            <div id="review-image-container">
-                
-                <image id="review-person-image" src= "../../images/image1.png"></image>
-            </div>
-            <h4 id="reviewer">Susan Smith</h4>
-            <div id="review-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Aliquam dignissimos fuga corporis similique
-                voluptatem inventore necessitatibus? Placeat labore 
-                voluptas eius, vel et 
-                doloribus amet ex consequuntur odio deserunt 
-                vitdae tenetur.
-            </div> 
-       </div>  
-    </div>
+           <div id="review-container">
+                <div id="center-container"  itemid="center-container1" class="1">
+                    <div id="review-image-container">
+                        
+                        <image id="review-person-image" src= "../../images/shahrukh-image.jpeg"></image>
+                    </div>
+                    <h4 id="reviewer">Shahrukh Khan</h4>
+                    <hr>
+                    <div id="review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aliquam dignissimos fuga corporis similique
+                        voluptatem inventore necessitatibus? Placeat labore 
+                        voluptas eius, vel et 
+                        doloribus amet ex consequuntur odio deserunt 
+                        vitdae tenetur.
+                    </div> 
+                </div>  
+               <div id="center-container"  itemid="center-container1" class="1">
+                    <div id="review-image-container">
+                       <img id="review-person-image" src= "../../images/shahrukh-image.jpeg"></img>
+                     </div>
+                    <h4 id="reviewer">Shahrukh Khan</h4>
+                    <hr>
+                    <div id="review-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aliquam dignissimos fuga corporis similique
+                        voluptatem inventore necessitatibus? Placeat labore 
+                        voluptas eius, vel et 
+                        doloribus amet ex consequuntur odio deserunt 
+                        vitdae tenetur.
+                    </div> 
+                </div>  
+             </div>
         </section>
+          
+        <!-- FOOTER LINKS -->
+
         <footer class="footer">
             <div class="quick-links">
                 
@@ -234,12 +289,12 @@
             </div>
             <div class="social-links">
                 <ul>
-                    <li><a href="https://www.facebook.com"><i>facebook</i></a></li>
-                    <li><a href="https://www.instagram.com"><i>instagram</i></a></li>
-                    <li><a href="https://www.github.com"><i>github</i></a></li>
-                    <li><a href="https://www.twitter.com"><i>twitter</i></a></li>
-                    <li><a href="https://www.linkedin.com"><i>linkedin</i></a></li>
-                    <li><a href="https://www.reddit.com"><i>reddit</i></a></li>
+                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.github.com"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.reddit.com"><i class="fa fa-reddit"></i></a></li>
                 </ul>
             </div>
             <div class="get-in-touch">

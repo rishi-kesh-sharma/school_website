@@ -78,6 +78,3 @@ h6 a:hover{
 }
 .login-button:hover{ background: darkgreen; transform:scale(1.2,1.2); -webkit-transform:scale(1.2,1.2); -moz-transform:scale(1.2,1.2); -ms-transform:scale(1.2,1.2); -o-transform:scale(1.2,1.2);
 }
-.person-image img{
-	color:red;
-}
