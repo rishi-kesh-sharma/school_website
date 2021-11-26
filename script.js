@@ -28,7 +28,7 @@ hamburger.addEventListener("click",()=>{
 
 const carouselContainer=document.querySelector(".carousel-container");
 const carouselImage1=document.querySelector(".carousel-image1");
-const carouselImage2=document.querySelector(".carousel-image2");
+// const carouselImage2=document.querySelector(".carousel-image2");
 const slideLeftButton=document.querySelector(".slide-left-btn")
 const slideRightButton=document.querySelector(".slide-right-btn")
 // const slideLeftButton;
@@ -41,7 +41,7 @@ const intervalFunction=()=>{
 
         // carouselImage.classList.toggle("carousel-image");
     
-        if(currentIndexOfCarouselImage<12)
+        if(currentIndexOfCarouselImage<10)
         {
     
             currentIndexOfCarouselImage+=1;

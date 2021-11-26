@@ -8,6 +8,7 @@ body{
 	padding: 40px;
 	background-image: linear-gradient(to right,rgb(30, 30, 228),rgb(129, 129, 190),blue);
 }
+
 .login{
 	
 	position: absolute;
@@ -28,6 +29,11 @@ body{
 	border:2px solid black;
 	 
 
+}
+
+.person-image i{
+	font-size: 5em;
+	color: blue;
 }
 input[type="text"],input[type="password"]{
 outline: none;
